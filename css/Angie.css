@@ -1,0 +1,49 @@
+.mainpage{
+		text-align: center;
+	background-image: url("../watermelon.jpg");
+	
+}
+
+h1{
+	width: 100%;
+	color: #7E14FF;
+	font-family: AR CENA, Impact, Arial;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+section{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFACB5;
+	padding: 5px;
+	border-width: 5px;
+	border-color: #FFB28B;
+	border-style: solid;
+	font-family: AR CENA, Impact, Arial;
+	color: #7E14FF;
+}
+footer{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #87C4F7;
+	padding: 5px;
+	border-width: 5px;
+	border-color: #C593FF;
+	border-style: solid;
+	font-family: AR CENA, Impact, Arial;
+	color: #7E14FF;
+}
+body{
+	background-color: #FFE5FF;
+	background-image: url("../watermelon.jpg");
+	font-family: AR CENA, Impact, Arial;
+	color: #7E14FF;
+}
+fieldset{
+	font-family: AR CENA, Impact, Arial;
+}

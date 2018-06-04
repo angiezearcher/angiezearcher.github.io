@@ -1,0 +1,66 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<title>Cuffchat Storage</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="js/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" href="css/Angie.css" />
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/Angie.js"></script>
+    
+</head>
+
+<body>
+<div class="mainpage" data-role="page">
+	<div class="profile-head">
+		<h1>CUFFCHAT</h1>
+        
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+	<form>
+			<fieldset data-role="ui-field-contain"> 
+				<label for="name">NAME:</label>
+				<input type="text" name="name" id="name">
+			</fieldset>
+			<fieldset data-role="ui-field-contain"> 
+				<label for="task">IDEA:</label>
+				<input type="text" name="idea" id="idea">
+			</fieldset>
+			<fieldset data-role="ui-field-contain"
+				<label for="description">DESCRIPTION: </label>
+    <select name="description" id="description">
+        <option value="Necessary">Necessary</option>
+        <option value="Extra, for entertainment">Extra, for entertainment</option>
+        <option value="Standby">Standby</option>
+        <option value="For linking of other ideas">For linking of other ideas</option>
+		<option value="Next story">Next story</option>
+    </select>
+
+			<input id="add" type="button" value="Add">
+	</form>
+	  <table data-role="table" id="table-column-toggle" class="ui-responsive table-stroke">
+	              <thead>
+	                <tr>
+	                  <th data-priority="1">NO</th>
+	                  <th>IDEAIST</th>
+	                  <th data-priority="3">IDEA</th>
+	                  <th data-priority="3">DESCRIPTION</th>
+	                  <th>RATING</th>
+	                  	               
+	                 
+	                </tr>
+	              </thead>
+	              <tbody class="ideatable">	                     
+	              </tbody>
+                  
+	            </table>
+    </div>
+           
+	<div data-role="footer" data-position="fixed">
+		<h4>Page Footer</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+</body>
+</html>
